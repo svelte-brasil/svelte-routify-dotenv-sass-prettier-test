@@ -1,5 +1,18 @@
 # about this template
 
+# svelte app
+
+This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
+
+To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
+
+```bash
+npx degit svelte-brasil/svelte-routfy-dotenv-sass-prettier-test svelte-app
+cd svelte-app
+```
+
+_Note that you will need to have [Node.js](https://nodejs.org) installed._
+
 ## sass
 
 Sass was configurated with svelte-preprocess, it has a global variable.scss that we can use into any component
@@ -108,19 +121,6 @@ module.exports = {
   plugins: ['svelte'],
 }
 ```
-
-# svelte app
-
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
-
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
-
-_Note that you will need to have [Node.js](https://nodejs.org) installed._
 
 # routify-starter
 

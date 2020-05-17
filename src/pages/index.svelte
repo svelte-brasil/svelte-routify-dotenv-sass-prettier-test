@@ -20,11 +20,6 @@
 
 <h2>We are in {process.env.APP_ENV} enviroment</h2>
 
-<p>
-  Based in
-  <a href="https://github.com/sveltech/routify-starter">routify-starter</a>
-</p>
-
 <h3>Libs:</h3>
 <ul>
   {#each libs as item}
@@ -33,3 +28,8 @@
 </ul>
 
 <RoutifyIntro />
+
+<p>
+  Based in
+  <a href="https://github.com/sveltech/routify-starter">routify-starter</a>
+</p>
