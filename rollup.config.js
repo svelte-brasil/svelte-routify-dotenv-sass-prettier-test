@@ -59,7 +59,7 @@ function createConfig({ output, inlineDynamicImports, plugins = [] }) {
         entries: [
           {
             find: '@src',
-            replacement: path.resolve(projectRootDir, 'src'),
+            replacement: path.resolve(__dirname, 'src'),
           },
         ],
         customResolver,
